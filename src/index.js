@@ -26,7 +26,7 @@ const sm_uname = "O. Rosado Ramirez";
 const handle = "afrotonder";
 const slogan = "Full-time problem solver";
 
-document.getElementById("uname").innerText = uname;
+document.getElementById("uname").innerText = uname + "!";
 document
   .getElementById("avatar")
   .setAttribute(
@@ -85,6 +85,19 @@ let imgs = [
   }
 ];
 
+let tools = [
+  { name: "JS (ES6+)", source: "assets/js-icon.png" },
+  { name: "HTML", source: "assets/html-icon.png" },
+  { name: "CSS/SCSS", source: "assets/css-icon.png" },
+  { name: "TypeScript", source: "assets/tys-icon.png" },
+  { name: "Angular", source: "assets/angular-icon.png" },
+  { name: "Ionic", source: "assets/ionic-icon.png" },
+  { name: "Capacitor", source: "assets/capacitor-icon.png" },
+  { name: "Bootstrap", source: "assets/bootstrap-icon.png" },
+  { name: "MySQL", source: "assets/bootstrap-icon.png" }
+];
+
+// set/ renderfooter
 for (let img of imgs) {
   let elem = document.createElement("a");
 
@@ -101,6 +114,25 @@ for (let img of imgs) {
     `/>`;
 
   document.getElementById("social-icons").appendChild(elem);
+}
+
+// set/render tools
+for (let tool of tools) {
+  let elem = document.createElement("div");
+
+  elem.setAttribute("class", "tool-icons");
+  // elem.setAttribute("target", "_blank");
+
+  elem.innerHTML =
+    `<img src=` +
+    tool.source +
+    `  title=` +
+    tool.name +
+    ` alt=` +
+    tool.name +
+    `/>`;
+
+  document.getElementById("tools").appendChild(elem);
 }
 
 // --------------- set Description --------------- //

@@ -21,11 +21,6 @@ body {
 
 }
 
-// #main {
-//   // display: none;
-//   // visibility: hidden;
-// }
-
   #avatar {
     margin: 4em auto 3em auto ;
     border-radius: 50%;
@@ -45,22 +40,8 @@ body {
     margin-right: 5% ;
     font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 
-    // this is supposed to work with sass but idk wtf is up here
-    // .ht1 {
-    //   color: red !important;
-    // }
 
   }
-  
-  .grid-wrapper {
-    display: flex;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-gap: 10px;
-    // grid-auto-rows: minmax(100px, auto);
-    justify-content: space-evenly; 
-
-  }
-
 
   #social-icons {
     display: flex ;
@@ -112,14 +93,46 @@ body {
      #description {
         display: flex ;
         color: red ;
+        justify-content: space-evenly;
+        flex-direction: column ;
      }
      #uname {
       color: white ;
       font-style: italic ;
       font-size: 20px;
-      // font-family: 'Courier New', Courier, monospace;
-      // margin-top: 35px;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      
+    }
 
+    #feats {
+            overflow: hidden; /* Hide s crollbars */
+
+    }
+
+    #tools {
+      width: auto;
+      height: auto;
+      display: flex;
+      // justify-content: space-evenly;
+      flex-direction: row;
+      overflow-x: scroll ;
+
+    }
+
+    .tool-icons {
+      display: flex ;
+      justify-content: flex-start ;
+      height: 3em ;
+      background-color: black ;
+      
+      // margin-left: -1em ;/
+  
+      img {
+        height: 2em ;
+        border-radius: 5px;
+        margin: 0 5px 0 5px; 
+      }
     }
   
       
