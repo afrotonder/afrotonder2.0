@@ -21,6 +21,12 @@
 // ---------- END HEADER ----------
 
 // ---------- SET AVATAR DATA ----------
+const uname = "Omar Rosado Ramirez";
+const sm_uname = "O. Rosado Ramirez";
+const handle = "afrotonder";
+const slogan = "Full-time problem solver";
+
+document.getElementById("uname").innerText = uname;
 document
   .getElementById("avatar")
   .setAttribute(
@@ -28,11 +34,9 @@ document
     "https://pbs.twimg.com/profile_images/1087372828473733120/eJJHI1Su_400x400.jpg"
   );
 
-document.getElementsByClassName("header-text")[0].innerHTML =
-  "Omat Rosado Ramirez";
+document.getElementsByClassName("header-text")[0].innerHTML = uname;
 
-document.getElementsByClassName("header-text ht1")[0].innerHTML =
-  "Full-time problem solver";
+document.getElementsByClassName("header-text ht1")[0].innerHTML = slogan;
 // ---------- END SET AVATAR DATA ----------
 
 // ---------- ICON DATA----------
@@ -85,6 +89,8 @@ for (let img of imgs) {
   let elem = document.createElement("a");
 
   elem.setAttribute("href", img.url);
+  elem.setAttribute("target", "_blank");
+
   elem.innerHTML =
     `<img src=` +
     img.source +
@@ -97,8 +103,16 @@ for (let img of imgs) {
   document.getElementById("social-icons").appendChild(elem);
 }
 
+// --------------- set Description --------------- //
+
+// set normal desc
+
+// set mobile desc
+
+// --------------- set Description --------------- //
+
 // --------------- set footer data --------------- //
-let footer = "afrotonder © ";
+const footer = "afrotonder © ";
 let year = new Date().getFullYear();
 
 document.getElementsByClassName("footer-text")[0].innerHTML =
