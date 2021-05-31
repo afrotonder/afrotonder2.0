@@ -25,6 +25,8 @@ const uname = "Omar Rosado Ramirez";
 const sm_uname = "O. Rosado Ramirez";
 const handle = "afrotonder";
 const slogan = "Full-time problem solver";
+const job1 = "TuChequera.com";
+const job2 = "APS Health";
 
 document.getElementById("uname").innerText = uname + "!";
 document
@@ -37,6 +39,14 @@ document
 document.getElementsByClassName("header-text")[0].innerHTML = uname;
 
 document.getElementsByClassName("header-text ht1")[0].innerHTML = slogan;
+
+document.getElementById(
+  "meet"
+).innerHTML = ` I'm a software developer with 6+ years in 
+                                              creating apps and sites in a wide variety of stacks. 
+                                              I'm currently a software developer @<a href="https://tuchequera.com" target="_blank">${job1}</a> 
+                                              and a Business Intelligence Analyst @<a href="https://apshealth.com/" taget="_blank">
+                                              ${job2}</a>.`;
 // ---------- END SET AVATAR DATA ----------
 
 // ---------- ICON DATA----------
@@ -93,8 +103,11 @@ let tools = [
   { name: "Angular", source: "assets/angular-icon.png" },
   { name: "Ionic", source: "assets/ionic-icon.png" },
   { name: "Capacitor", source: "assets/capacitor-icon.png" },
+  { name: "Python", source: "assets/py-icon.png" },
+  { name: "PHP", source: "assets/php-icon.png" },
   { name: "Bootstrap", source: "assets/bootstrap-icon.png" },
-  { name: "MySQL", source: "assets/bootstrap-icon.png" }
+  { name: "SQL", source: "assets/sql-icon.png" },
+  { name: "WprdPress", source: "assets/wordpress-icon.png" }
 ];
 
 // set/ renderfooter
@@ -135,6 +148,17 @@ for (let tool of tools) {
   document.getElementById("tools").appendChild(elem);
 }
 
+// const rightButton = document.getElementById("scroll-right");
+
+document.getElementById("scroll-right").onclick = function () {
+  document.getElementById("tools").scrollLeft += 500;
+};
+
+// const leftButton = document.getElementById("scroll-left");
+
+document.getElementById("scroll-left").onclick = function () {
+  document.getElementById("tools").scrollLeft += -500;
+};
 // --------------- set Description --------------- //
 
 // set normal desc

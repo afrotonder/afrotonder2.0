@@ -1,5 +1,7 @@
 html {
   cursor: url('../assets/queen.png'), auto;	
+  width: 99%;
+  overflow-x: hidden ;
 
 }
 
@@ -12,12 +14,31 @@ header {
 
 }
 body {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  a:link {
+    color: yellow ;
+  } 
+  a:visited {
+    color: green ;
+  }
+
+
+
+
+  color: orange ;
+  font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
   // background-color: rgb(64, 65, 64) ;
   background-color: black ;
   width: 100% ;
+  overflow-x: hidden;
+  position: relative;
 
-
+.theme {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  font-size: 14px;
+}
 
 }
 
@@ -38,8 +59,14 @@ body {
     text-align: center ;  
     margin-left: 5% ;
     margin-right: 5% ;
-    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 
+
+  }
+
+  #greet {
+    color: orange;
+    text-align: center;
+    margin-top: -10px;
 
   }
 
@@ -63,6 +90,23 @@ body {
   @media only screen and (max-width: 600px) {
     body {
 
+//       .bats:hover {
+//         background-image: url('assets/bat-effect.jpg');
+//         background-repeat:no-repeat;
+//         background-size: 100% 70px ;
+//         margin: 0;
+// // display:flex ;
+// // justify-content: center;
+//       }
+
+      overflow-x: hidden;
+      position: relative;
+
+
+      .fa {
+        margin-top: 7px;
+      }
+
       .header-text {
         display: none ;
       }
@@ -83,7 +127,7 @@ body {
       }
 
       #avatar {
-        margin: 4em auto 3em auto ;
+        margin: 2em auto 2em auto ;
         border-radius: 50%;
         width: 10em;
         position: relative; 
@@ -92,17 +136,24 @@ body {
 
      #description {
         display: flex ;
-        color: red ;
+        // color: red ;
         justify-content: space-evenly;
         flex-direction: column ;
+        text-align: center;
      }
      #uname {
       color: white ;
       font-style: italic ;
       font-size: 20px;
-      font-family: 'Courier New', Courier, monospace;
-      display: flex;
-      
+      text-align: center;
+      margin-top: -8px;
+      // :hover {
+      //   // bats effect
+      // }
+    }
+
+    #meet {
+      margin-top: -10px ;
     }
 
     #feats {
@@ -110,14 +161,37 @@ body {
 
     }
 
+    #social-icons {
+      display: flex ;
+      justify-content: space-evenly ;
+      height: 3em ;
+      background-color: black ;
+      margin-left: -1em ;
+  
+      img {
+        height: 2em ;
+        // margin: 0 -500px 0 -500px ;
+      }
+  
+      img:hover {
+        animation: shake 0.1s;
+        animation-iteration-count: 1s;
+      }
+    }
+
     #tools {
-      width: auto;
+      width: 90%;
       height: auto;
       display: flex;
-      // justify-content: space-evenly;
       flex-direction: row;
       overflow-x: scroll ;
+      scroll-behavior: smooth;
 
+    }
+
+    .tools-container {
+      display: flex;
+      flex-direction: row;
     }
 
     .tool-icons {
@@ -134,12 +208,34 @@ body {
         margin: 0 5px 0 5px; 
       }
     }
+
+    #mobile-hmu {
+      // color: orange ;
+      display: flex ;
+      // justify-content: center;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .footer-text-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer-text {
+    font-size: 10px;
+    // style="color: orange
+    }
   
       
     }
   }
 
 
+#footer {
+  width: 100%; bottom: 0; position: absolute; text-align: center;
+font-size: 8px;
+}
 
 // #loader {
 //   height: 100% ;
@@ -162,3 +258,23 @@ body {
     40% { transform: translate(1px, -1px) rotate(3deg); }
   }
 // --------------- END KEYFRAMES ---------------
+
+@font-face {
+  font-family: Rex-Light;
+  src: url('assets/Rex-Light.eot');
+  src: url('assets/Rex-Light.eot?#iefix') format('embedded-opentype'),
+  url('assets/Rex-Light.woff2') format('woff2'), 
+  url('assets/Rex-Light.woff') format('woff'),
+  url('assets/Rex-Light.ttf') format('truetype');
+ }
+
+ 
+@font-face {
+  font-family: Rex-Bold;
+  src: url('assets/Rex-Bold.eot');
+  src: url('assets/Rex-BOld.eot?#iefix') format('embedded-opentype'),
+  url('assets/Rex-Bold.woff2') format('woff2'), 
+  url('assets/Rex-Bold.woff') format('woff'),
+  url('assets/Rex-Bold.ttf') format('truetype');
+ }
+
