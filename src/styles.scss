@@ -26,8 +26,10 @@ body {
 
 
   color: orange ;
-  font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
+  // font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
   // background-color: rgb(64, 65, 64) ;
+  font-family: 'Creepster', 'Arial Narrow', Arial, sans-serif;
+
   background-color: black ;
   width: 100% ;
   overflow-x: hidden;
@@ -277,4 +279,25 @@ font-size: 8px;
   url('assets/Rex-Bold.woff') format('woff'),
   url('assets/Rex-Bold.ttf') format('truetype');
  }
+
+
+ @font-face {
+  font-family: Creepster;
+  src: url('assets/Creepster-Regular.eot');
+  src: url('assets/Creepster-Regular.eot?#iefix') format('embedded-opentype'),
+  url('assets/Creepster-Regular.woff2') format('woff2'), 
+  url('assets/Creepster-Regular.woff') format('woff'),
+  url('assets/Creepster-Regular.ttf') format('truetype');
+ }
+
+ @font-face {
+  font-family: Monoton;
+  src: url('assets/Monoton-Regular.eot');
+  src: url('assets/Monoton-Regular.eot?#iefix') format('embedded-opentype'),
+  url('assets/Monoton-Regular.woff2') format('woff2'), 
+  url('assets/Monoton-Regular.woff') format('woff'),
+  url('assets/Monoton-Regular.ttf') format('truetype');
+ }
+
+
 
