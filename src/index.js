@@ -102,12 +102,14 @@ let tools = [
   { name: "TypeScript", source: "assets/tys-icon.png" },
   { name: "Angular", source: "assets/angular-icon.png" },
   { name: "Ionic", source: "assets/ionic-icon.png" },
+  { name: "iOS", source: "assets/xcode-icon.png" },
+  { name: "Android", source: "assets/android.png" },
   { name: "Capacitor", source: "assets/capacitor-icon.png" },
   { name: "Python", source: "assets/py-icon.png" },
   { name: "PHP", source: "assets/php-icon.png" },
   { name: "Bootstrap", source: "assets/bootstrap-icon.png" },
   { name: "SQL", source: "assets/sql-icon.png" },
-  { name: "WprdPress", source: "assets/wordpress-icon.png" }
+  { name: "WordPress", source: "assets/wordpress-icon.png" }
 ];
 
 // set/ renderfooter
