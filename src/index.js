@@ -19,7 +19,7 @@
 // const typedHeader1 = new Typed(".ht1", options1);
 
 // ---------- END HEADER ----------
-
+console.log("GOJIRAA TESTING");
 // ---------- SET AVATAR DATA ----------
 const uname = "Omar Rosado Ramirez";
 const sm_uname = "O. Rosado Ramirez";
