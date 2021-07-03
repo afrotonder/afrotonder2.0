@@ -42,7 +42,7 @@ document.getElementsByClassName("header-text ht1")[0].innerHTML = slogan;
 
 document.getElementById(
   "meet"
-).innerHTML = ` I'm a software developer with 6+ years in 
+).innerHTML = ` I'm a software developer with 6+ years of experience
                                               creating apps and sites in a wide variety of stacks. 
                                               I'm currently a software developer @<a href="https://tuchequera.com" target="_blank">${job1}</a> 
                                               and a Business Intelligence Analyst @<a href="https://apshealth.com/" taget="_blank">
