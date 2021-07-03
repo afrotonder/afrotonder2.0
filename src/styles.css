@@ -133,13 +133,13 @@ body {
   #uname {
     color: white;
     font-style: italic;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
-    margin-top: -8px;
+    margin-top: 5px;
   }
 
   #meet {
-    margin-top: -14%;
+    margin-top: -10%;
   }
 
   #feats {
