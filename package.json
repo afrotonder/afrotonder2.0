@@ -1,17 +1,23 @@
 {
   "name": "portfolio20",
   "version": "1.0.0",
-  "description": "Portfolio",
+  "description": "",
   "main": "index.html",
+  "licence": "MIT",
+  "private": true,
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "typed.js": "2.0.11"
+    "@babel/core": "7.14.6",
+    "@babel/parser": "7.14.7",
+    "babel": "6.23.0",
+    "typed.js": "2.0.11",
+    "yarn": "1.22.10"
   },
   "devDependencies": {
-    "@babel/core": "7.2.0",
+    "@babel/core": "7.14.6",
     "parcel-bundler": "^1.6.1"
   },
   "keywords": []
