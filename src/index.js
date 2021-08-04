@@ -20,6 +20,10 @@
 
 // ---------- END HEADER ----------
 console.log("GOJIRAA TESTING");
+
+// set hallow theme default
+document.body.setAttribute("color-theme", "hallow");
+
 // ---------- SET AVATAR DATA ----------
 const uname = "Omar Rosado Ramirez";
 const sm_uname = "O. Rosado Ramirez";
@@ -245,12 +249,11 @@ document.getElementById("themes").onchange = function (event) {
   console.log(this.value);
   if (this.value === "1") {
     console.log("HALLOW!");
-
-    // document.
+    document.body.setAttribute("color-theme", "hallow");
   } else if (this.value === "2") {
     console.log("80s");
     document.body.setAttribute("color-theme", "ochentas");
   } else if (this.value === "3") {
-    console.log("blah");
+    document.body.setAttribute("color-theme", "normal");
   }
 };

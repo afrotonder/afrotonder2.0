@@ -20,24 +20,26 @@ body a:visited {
   color: purple;
 }
 
-body.theme {
-  display: flex;
-  justify-content: flex-end;
-  width: 80%;
-  font-size: 14px;
-}
-body {
-  display: none;
-  color: orange;
-  /* // font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
-  // background-color: rgb(64, 65, 64) ; */
-  font-family: "Creepster", "Arial Narrow", Arial, sans-serif;
+// TODO: DAFUC IS THIS
+// body.theme {
+//   display: flex;
+//   justify-content: flex-end;
+//   width: 80%;
+//   font-size: 14px;
+// }
 
-  background-color: black;
-  width: 100%;
-  overflow-x: hidden;
-  position: relative;
-}
+// body {
+//   display: none;
+//   color: orange;
+//   /* // font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
+//   // background-color: rgb(64, 65, 64) ; */
+//   font-family: "Creepster", "Arial Narrow", Arial, sans-serif;
+
+//   background-color: black;
+//   width: 100%;
+//   overflow-x: hidden;
+//   position: relative;
+// }
 
 #avatar {
   margin: 4em auto 3em auto;
@@ -52,7 +54,7 @@ body {
   margin-top: 105px;
   font-size: 30px;
   width: 15em;
-  color: orange;
+  // color: orange;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -277,14 +279,7 @@ footer {
     url("assets/Rex-Bold.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: Creepster;
-  src: url("assets/Creepster-Regular.eot");
-  src: url("assets/Creepster-Regular.eot?#iefix") format("embedded-opentype"),
-    url("assets/Creepster-Regular.woff2") format("woff2"),
-    url("assets/Creepster-Regular.woff") format("woff"),
-    url("assets/Creepster-Regular.ttf") format("truetype");
-}
+
 
 @font-face {
   font-family: Monoton;
@@ -294,12 +289,68 @@ footer {
     url("assets/Monoton-Regular.woff") format("woff"),
     url("assets/Monoton-Regular.ttf") format("truetype");
 }
+ @font-face {
+    font-family: Creepster;
+    src: url("assets/Creepster-Regular.eot");
+    src: url("assets/Creepster-Regular.eot?#iefix") format("embedded-opentype"),
+      url("assets/Creepster-Regular.woff2") format("woff2"),
+      url("assets/Creepster-Regular.woff") format("woff"),
+      url("assets/Creepster-Regular.ttf") format("truetype");
+  }
 
+  @font-face {
+    font-family: BroadwayD;
+    src: url("assets/BroadwayD.eot");
+    src: url("assets/BroadwayD.eot?#iefix") format("embedded-opentype"),
+      url("assets/BroadwayD.woff2") format("woff2"),
+      url("assets/BroadwayD.woff") format("woff"),
+      url("assets/BroadwayD.ttf") format("truetype");
+  }
 /* ---------------------------------- */
 /* THEMES */
 
+
+body[color-theme="hallow"] {
+
+  
+  display: none;
+  font-family: "Creepster", "Arial Narrow", Arial, sans-serif;
+  
+  background-color: black;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  
+  color: orange;
+  background-color: black ;
+  header {
+    background-color: black ;
+  }
+  #social-icons {
+    background-color: black ;
+  }
+  #uname {
+    color: orange ;
+  }
+  .header-text {
+    color: orange ;
+  }
+  // change font
+
+  // add random shapes
+
+}
 // 80s theme
 body[color-theme="ochentas"] {
+
+  
+  display: none;
+  font-family: "BroadwayD", "Arial Narrow", Arial, sans-serif;
+  
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  
   color: black;
   background-color: #9dd7ef ;
   header {
@@ -323,5 +374,22 @@ body[color-theme="ochentas"] {
 
 // plain theme
 body[color-theme="normal"] {
-  color: green;
+  color: black;
+  background-color: white ;
+  header {
+    background-color: white ;
+  }
+  #social-icons {
+    background-color: white ;
+  }
+  #uname {
+    color: gray ;
+  }
+  .header-text {
+    color: gray ;
+  }
+  // change font
+
+  // add random shapes
+
 }
