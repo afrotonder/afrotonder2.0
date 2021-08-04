@@ -58,10 +58,13 @@ body {
   margin-right: 5%;
 }
 
+#feats {
+  display: none;
+}
+
 #greet {
-  color: orange;
-  text-align: center;
-  margin-top: -10px;
+  display: inline-block;
+  justify-content: center;
 }
 
 #social-icons {
@@ -87,6 +90,16 @@ body {
 
 #mobile-hmu {
   display: none;
+}
+
+#description {
+  text-align: center;
+}
+
+#uname {
+  color: white;
+  font-style: italic;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -144,14 +157,15 @@ body {
     font-style: italic;
     font-size: 25px;
     text-align: center;
-    margin-top: 5px;
+    margin-top: -15px;
   }
 
   #meet {
-    margin-top: -10%;
+    margin-top: -5%;
   }
 
   #feats {
+    display: inline-block;
     overflow: hidden; /* Hide s crollbars */
   }
 
