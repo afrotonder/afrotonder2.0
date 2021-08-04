@@ -63,53 +63,114 @@ let imgs = [
     url: "linkedin.com/in/afrotonder/",
     title: "afrotonder@LinkedIn",
     alt: "LinkedIn Icon",
-    source: "assets/linkedin-icon.png"
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLVNE5VzXYTVhRHGvgEQwEtMhLXHSnqBen3cdCoqWt4SuSWe8T5r_Exiwqojum8UcfVDOWXp8bQOMHsmTosZ_nXRRJLVejQETukkHl2tLXdxyO4eZb8T8R7qkzzAK-P5k6-J19EKzgOurp0cYfDdIcMDrQ=s947-no?authuser=0"
   },
   {
     name: "grm",
     url: "https://angular-g2qjyv.stackblitz.io/",
     title: "TheGripRepo",
     alt: "Rob Zombies Halloween 2018 Pumpkin Icon",
-    source: "assets/halloween2018.png"
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLVUi4E7FqkIvgGH4pnB2nFQYQLycPbXPtN_LhTE4L7Qc7rSPJm6BLkJ72CtYEYt7gkqshtP2kUBCO4OHOIru3HIh7Kzx22lh9mXZoQdSEiv6-a15M5EfhA7o3oX-YV54UAtv_1IoiWXYcVvck387tcs2A=w436-h639-no?authuser=0"
   },
   {
     name: "github",
     url: "https://github.com/afrotonder",
     title: "afrotonder@GitHub",
     alt: "Github Octocat Logo",
-    source: "assets/Octocat.png"
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLW-X-Evbsl5eNDvgiWpH4SVPSLajzhYuWYcUAZH4_iuuxo_Lct_fxEW94HeGfpiWakK_TrGDTA8eQ0GoBNT4SosNjz7wBwHcgBRJlt8Sb9dY-5ip2yrHmpKcVOc5q9HK7eaItyA4D2uWKKhUbhfEeq0ug=w800-h665-no?authuser=0"
   },
   {
     name: "chess",
     url: "https://www.chess.com/member/afrotonder",
     title: "afrotonder@Chess.com",
     alt: "Chess.com Icon",
-    source: "assets/chesscomicon.png"
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLVpB_6kvN9WwGnnQfDJVAVs-I1jZ50Ew8z7G0nSDWdOEdSnbgcgoyqPimBjJGD7b7xfDpXTDxqoGgbGo4vfcHWYcrrDzI3gFdo__15fp8xzvrSZMEbHX2HFOy6qq-8SgsWfgQVWSCbRhlltUfyyMcDbGg=s947-no?authuser=0"
   },
   {
     name: "twt",
     url: "https://twitter.com/afrotonder",
     title: "afrotonder@Twitter",
     alt: "Twitter Icon",
-    source: "assets/twittericon.png"
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLV_K5Pj-uRf2XF4thazQi1XU0Yfyp57GRIJ5wIndWt_no3d-QiYPqDJJ96BXoQYCmTuAMZirb3CoKx8RM3ykMOgQ9_tLcJpAug-recCbuMOilC22P6Y6l30OOQMkWHi6R17-EI-Tn_XmhcbLS3lf6PxfQ=s512-no?authuser=0"
   }
 ];
 
 let tools = [
-  { name: "JS (ES6+)", source: "assets/js-icon.png" },
-  { name: "HTML", source: "assets/html-icon.png" },
-  { name: "CSS/SCSS", source: "assets/css-icon.png" },
-  { name: "TypeScript", source: "assets/tys-icon.png" },
-  { name: "Angular", source: "assets/angular-icon.png" },
-  { name: "Ionic", source: "assets/ionic-icon.png" },
-  { name: "iOS", source: "assets/xcode-icon.png" },
-  { name: "Android", source: "assets/android.png" },
-  { name: "Capacitor", source: "assets/capacitor-icon.png" },
-  { name: "Python", source: "assets/py-icon.png" },
-  { name: "PHP", source: "assets/php-icon.png" },
-  { name: "Bootstrap", source: "assets/bootstrap-icon.png" },
-  { name: "SQL", source: "assets/sql-icon.png" },
-  { name: "WordPress", source: "assets/wordpress-icon.png" }
+  {
+    name: "JS (ES6+)",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLUKHskMuUuHO_is0ybhEjpPV8A0bNjYZ4_I9RDnmpPXfR0LyJj5TnTVmQ99HKiHIoP-YA6fsZThuW2q8akvL4xtAZArKsi31WWD9WJNQCOUBOCnE8rPlQrJ4JQzrc9qMPgq-VK3q1LnrQnir9mTGCOpMQ=s512-no?authuser=0"
+  },
+  {
+    name: "HTML",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLVsCnvmXO27GpTOs7YIuLF36Eu-EmEARycUHFUPeSpcg8V4c_RIJoQ5uE8iCdIgu0l6jXx5B9M6SLUTm3iYFuf0xKjA8ghcaY-EuAfXhX3wVH8cZw_93Pk0CPExdwInUx4oaIMr8wk5vzCUNtOftimkcw=s512-no?authuser=0"
+  },
+  {
+    name: "CSS/SCSS",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLX7HkxS64MFgUsVb92WFow1WZJ8bV133S4LLxrY5dQ4sZA063Hyr71KuSNka47zTYMNyHMDJ3IM6yx6O_Y0Eig0gCFd2r1a_l-UL8uh6Bi7wDEgZdIAmt9Qg5J8FdN0elCGsjCpChFsiUfzrP58ppvdhg=s512-no?authuser=0"
+  },
+  {
+    name: "TypeScript",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLV770qUILpGj2OaHKRoxmaEUqaEl4SGl9Sy7Wg1lIiHzU5VqyoHNCcMbMnlUpkSM0Do01OZPkGG39y2myGTTB9h77gDWThkWPHK7k9UQi5Z36K4JjFWWQqrOGqGy7BnUm4d5UT9ZgtArcbEEI9uQEBUPQ=s512-no?authuser=0"
+  },
+  {
+    name: "Angular",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLVpGumyK9XKGBu4nh3SUnbwAxce94ULnBP7NUwNuQoZkGNHzjyPwjELVHIetDPhjOtoOo5Mf9JP3mdQdX2ThMV9622bZR1VJy88sg8dlWmdUBz1NGQ4krMIxNwRlvrVuKLji_HAKqY_SFiYbP9pwX3RGA=s947-no?authuser=0"
+  },
+  {
+    name: "Ionic",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLWmdhlto5MddcYK-_54q3ezOnrZiVQSgczG1sEVuEvvhhJBvn504XVvsp_UpJ6xX-QLrrAZ0WAGsUnpUaDyvUynwpiW3oNCBar4KyjaExrnM4lNy66wVVPxd9pIDBE3wIJ3szU8KpzC1E7iBdb8F_6dmg=s947-no?authuser=0"
+  },
+  {
+    name: "iOS",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLX9wfiz1jC62N-n9fv-LAdEj-M-BmfdpLXEvwt7uwBRn1srovkkci6nXDpZCy1AhMmzb7TA_fUOwtWx2QSS0v3sJWMbgE-sT9sltMzYwERltbocgbvl_I5DIBMOZRa2LJp5XYibZBxOJHGKhmEXprmrBw=s512-no?authuser=0"
+  },
+  {
+    name: "Android",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLVBimjbQm-MEAfNnaBeDTIawhg5pD6Rv81XhF4xOrQXKOlwrke_LdQPcAWE5GZvt6F_Rv9zEH16BlZldJtC_xMi2X9xpss1uQeZ2srNu8xW1WrOw41G-H5L-Bi8juP2_1nEDUh_Poj1In93_I5iaXYoAw=s600-no?authuser=0"
+  },
+  {
+    name: "Capacitor",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLXrtT2viZGfqoSRy1uH4OaejcdNh9fUGdoIX_qMY4c85KN1VBwcanfaMGA10orXjWme1zhNty_E5ebpjvbsw532QwrUvCmg69lYo91_EJJCEZqlQ2giO_G8iAbDe5zL5w45w98qBBetbIdkksDohvyDYA=s500-no?authuser=0"
+  },
+  {
+    name: "Python",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLURELxf92g6UaUf_bebAUodJeY4W3BMAMwaTy0CIFml1GK6dFvFFgdBrWy4hi7xI_roMDISJtjYv48oyAp8mABRUpTFQ2UQRTanSVdLUGtHYnZ72VcogyALffkUOyrSkK1T-pIQbRmAxZv3TI1G7dolZw=s512-no?authuser=0"
+  },
+  {
+    name: "PHP",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLUJRmr_OyDI36MLRlrWv7jjK8MaWfj5RHPBaKX8vizRXd9i9rE62k6gDGlNiQEVB2obqGwXDeqCvIfpCZBYc-ug5x8R8y324-di_-xHbAtXqOiWuULjtnttJTFYPPvcCm9M2g_Qi7BwidvKUTQqBl6BfA=s512-no?authuser=0"
+  },
+  {
+    name: "Bootstrap",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLXhEnrb4vXyO7uFe4Hk5MaEIhMR_ypSjEAwx_cKvEH8WXlxfRUX4vOIpkqItiiYKiu4AvpjeVMILq72r40c5OU39c5Ei6kaznnWPT7BNG-Q5PRAnaf1jrBKJ2ip9w4V4BW3O5Ktd4d-pHW2ypjWabXulw=w1024-h860-no?authuser=0"
+  },
+  {
+    name: "SQL",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLXizphzEzNxlgAM1wv8E97Qaz6vIT8GvO1SYzV0CRbRw7eOkAUi_OiVN36AWVFs_Bm1OcvW4OMBXKpOrYBrb1IQ9Q040iUQiS5duEfGACgP5mans4ljhp-MOcdtb-zeB9e20lzNSantroUBcMbz-VnXRA=w397-h298-no?authuser=0"
+  },
+  {
+    name: "WordPress",
+    source:
+      "https://lh3.googleusercontent.com/pw/AM-JKLV7t9t6TP4ET35dL7ru0w7Iq3593unFKsPXX7tUx44oHIAZSousQfJIMqK66AmB1p5BNoqWLtDo9Iu-FIXQWSS9QG6beTheNwZw7LyrHB17BkGHt56rjvr-_-OgmgVyIOmbUSpNYbU75shud25vlX0bMA=s512-no?authuser=0"
+  }
 ];
 
 // set/ renderfooter
