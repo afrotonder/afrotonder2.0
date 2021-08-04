@@ -294,3 +294,34 @@ footer {
     url("assets/Monoton-Regular.woff") format("woff"),
     url("assets/Monoton-Regular.ttf") format("truetype");
 }
+
+/* ---------------------------------- */
+/* THEMES */
+
+// 80s theme
+body[color-theme="ochentas"] {
+  color: black;
+  background-color: #9dd7ef ;
+  header {
+    background-color: #9dd7ef ;
+  }
+  #social-icons {
+    background-color: #9dd7ef ;
+  }
+  #uname {
+    color: purple ;
+  }
+  .header-text {
+    color: purple ;
+  }
+  // change font
+
+  // add random shapes
+
+}
+
+
+// plain theme
+body[color-theme="normal"] {
+  color: green;
+}

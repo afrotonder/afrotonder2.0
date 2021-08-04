@@ -237,3 +237,20 @@ let year = new Date().getFullYear();
 document.getElementsByClassName("footer-text")[0].innerHTML =
   footer + year.toString();
 // --------------- set footer data --------------- //
+
+// Functions //
+
+document.getElementById("themes").onchange = function (event) {
+  // 1 = hallow, 2 = 80s, 3 = plain
+  console.log(this.value);
+  if (this.value === "1") {
+    console.log("HALLOW!");
+
+    // document.
+  } else if (this.value === "2") {
+    console.log("80s");
+    document.body.setAttribute("color-theme", "ochentas");
+  } else if (this.value === "3") {
+    console.log("blah");
+  }
+};
