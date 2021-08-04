@@ -80,6 +80,15 @@ body {
   animation-iteration-count: 1s;
 }
 
+#web-hmu {
+  display: flex;
+  justify-content: center;
+}
+
+#mobile-hmu {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   /* //       .bats:hover {
     //         background-image: url('assets/bat-effect.jpg');
@@ -193,10 +202,10 @@ body {
     text-align: center;
   }
 
-  .footer-text-container {
+  /* .footer-text-container {
     display: flex;
     justify-content: center;
-  }
+  } */
 
   .footer-text {
     font-size: 10px;
@@ -204,12 +213,16 @@ body {
 }
 /* END OF MEDIA QUERY */
 
-#footer {
+.footer-text-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
   width: 100%;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   text-align: center;
-  font-size: 8px;
 }
 
 /* // --------------- KEYFRAMES --------------- */
